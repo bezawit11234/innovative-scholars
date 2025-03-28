@@ -1,9 +1,8 @@
 import React from 'react'
-
 function Home() {
   return (
-    <div className='text-blue-500 text-xl font-bold mt-10 font-serif'>
-      hello react
+    <div className="mt-60 bg-green-500">
+      <p>beza</p>
     </div>
   )
 }
