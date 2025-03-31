@@ -44,22 +44,22 @@ function Navbar() {
         Home
       </Link>
       <Link 
-        to="/contact" 
+        to="/aboutus" 
         className="py-2 md:py-0 hover:text-buttonColor transition-colors duration-200"
       >
-        Contact
+        About Us
       </Link>
       <Link 
         to="/team" 
         className="py-2 md:py-0 hover:text-buttonColor transition-colors duration-200"
       >
-        Team
+        Meet the Team
       </Link>
       <Link 
-        to="/aboutus" 
+        to="/contact" 
         className="py-2 md:py-0 hover:text-buttonColor transition-colors duration-200"
       >
-        About Us
+        Contact Us
       </Link>
     </div>
     

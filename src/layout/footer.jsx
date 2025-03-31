@@ -33,9 +33,10 @@ function Footer() {
         <div className='mt-5 sm:mt-0'>
           <p className='text-xl sm:text-2xl font-bold'>QUICK LINKS</p>
           <div className="flex flex-col gap-3 sm:gap-5 mt-3 text-[15px] sm:text-[17px] font-semibold">
-            <Link to="/" className='hover:text-blue-500'>HOME</Link>
-            <Link to="/contact" className='hover:text-blue-500'>CONTACT</Link>
-            <Link to="/blog" className='hover:text-blue-500'>BLOG</Link>
+            <Link to="/" className='hover:text-blue-500'>Home</Link>
+            <Link to="/aboutus" className='hover:text-blue-500'>About Us</Link>
+            <Link to="/team" className='hover:text-blue-500'>Meet the Team</Link>
+            <Link to="/contact" className='hover:text-blue-500'>Contact Us</Link>
           </div>
         </div>
 

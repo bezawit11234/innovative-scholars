@@ -2,8 +2,6 @@ import React from 'react'
 import image4 from '../../assets/s1.png';
 import image5 from '../../assets/s2.png';
 import image6 from '../../assets/s3.png';
-import image7 from '../../assets/s4.png';
-
 function Service() {
   return (
     <div className="bg-[#EBEDF5] py-8">
@@ -15,7 +13,7 @@ function Service() {
     <div className="mt-8">
       {/* Scrollable Track */}
       <div 
-        className="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-8 px-4 md:px-24 pb-12 scrollbar-hide"
+        className="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-8 px-4 md:px-24 pb-12 scrollbar-hide justify-between"
         style={{
           scrollBehavior: 'smooth',
           WebkitOverflowScrolling: 'touch',
@@ -55,16 +53,6 @@ function Service() {
           </a>
         </div>
   
-        {/* Image 4 (Half width) */}
-        <div className="flex-shrink-0 w-[140px] sm:w-[150px] md:w-[171px] snap-start">
-          <a href="#service4" className="block relative group">
-            <img
-              src={image7}
-              alt="Service 4"
-              className="w-full h-[428px] sm:h-[459px] md:h-[523px] object-cover shadow-xl rounded-xl transition-transform duration-300 hover:scale-105"
-            />
-          </a>
-        </div>
       </div>
     </div>
   

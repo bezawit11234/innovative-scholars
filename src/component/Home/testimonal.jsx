@@ -24,10 +24,10 @@ function Testimonial() {
           <img
             src={image9}
             alt="quote"
-            className="absolute h-[17px] w-[36px] lg:ml-[-300px] top-4 left-4 lg:left-0 lg:top-0"
+            className="absolute h-[17px] w-[36px] -top-2 left-4 z-10"
           />
           
-          <p className='ml-4 lg:ml-4'>"Innovative Scholars transformed my child's learning experience. Their tutoring program helped my son go from failing grades to excelling in school!"</p>
+          <p className='ml-4 lg:ml-4 mt-4 mb-6'>"Innovative Scholars transformed my child's learning experience. Their tutoring program helped my son go from failing grades to excelling in school!"</p>
           
           <div className="absolute bottom-4 left-4 flex items-center gap-2">
             <img
@@ -47,10 +47,10 @@ function Testimonial() {
             <img
               src={image9}
               alt="quote"
-              className="absolute h-[17px] w-[36px] left-4 top-4"
+              className="absolute h-[17px] w-[36px] left-4 -top-2 z-10"
             />
             <p className="pt-6 px-4 text-[15.1px] font-light">
-              "Thanks to Innovative Scholars, our students have shown remarkable improvement in their"
+              "Thanks to Innovative Scholars, our students have shown remarkable improvement in their
             </p>
           </div>
           <div className="w-full h-[30px] bg-white relative -top-[1px] border-l-2 border-r-2 border-[#08CF65]"></div>
