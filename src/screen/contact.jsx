@@ -1,11 +1,17 @@
 import React from 'react'
+import Getintouch from '../component/contact/getintouch';
+import Footer from '../layout/footer';
 
-function contact() {
+function Contact() {
   return (
-    <div className='text-blue-500 text-xl font-bold mt-60 font-serif '>
-      contact
-    </div>
-  )
+    <div className="min-h-screen flex flex-col">
+      
+      <Getintouch />
+         <div>
+        <Footer />
+        </div>
+        </div>
+  );
 }
 
-export default contact
+export default Contact
