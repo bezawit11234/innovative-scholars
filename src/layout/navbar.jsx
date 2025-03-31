@@ -62,8 +62,7 @@ function Navbar() {
         Contact Us
       </Link>
     </div>
-    
-    {/* Desktop Button */}
+
     <div className="hidden md:block">
       <button className="bg-buttonColor text-white py-2 px-6 rounded-md  hover:bg-green-600 transition-all duration-300 transform hover:scale-105 shadow-md">
         Start Today
@@ -83,8 +82,6 @@ function Navbar() {
           <p className="text-lg font-bold text-textColor">Scholars</p>
         </div>
       </div>
-      
-      {/* Navigation Links */}
       <div className="flex flex-col gap-2 p-4 flex-grow">
         <Link 
           to="/" 
@@ -94,12 +91,16 @@ function Navbar() {
           <span className="mr-3 "><i className='bx bxs-home text-[#08cf65] text-3xl group-hover:text-white'  ></i></span> Home
         </Link>
         <Link 
-          to="/contact" 
+          to="/aboutus" 
           className="py-4 px-6 border-b border-gray-400 hover:bg-buttonColor rounded-lg transition-all duration-200 flex items-center text-lg font-medium group"
           onClick={() => setMenuOpen(false)}
         >
-          <span className="mr-3"><i className='bx bxs-contact text-[#08cf65] text-3xl group-hover:text-white'></i></span> Contact
+          <span className="mr-3"><i className='bx bxl-blogger text-[#08cf65] text-3xl group-hover:text-white'></i>
+  </span> 
+  About Us
         </Link>
+       
+        
         <Link 
           to="/team" 
           className="py-4 px-6 border-b border-gray-400 hover:bg-buttonColor rounded-lg transition-all duration-200 flex items-center text-lg font-medium group"
@@ -109,14 +110,15 @@ function Navbar() {
   </span> 
   Team
         </Link>
-        <Link 
-          to="/aboutus" 
+        
+         <Link 
+          to="/contact" 
           className="py-4 px-6 border-b border-gray-400 hover:bg-buttonColor rounded-lg transition-all duration-200 flex items-center text-lg font-medium group"
           onClick={() => setMenuOpen(false)}
+          
         >
-          <span className="mr-3"><i className='bx bxl-blogger text-[#08cf65] text-3xl group-hover:text-white'></i>
-  </span> 
-  About Us
+          <span className="mr-3"><i className='bx bxs-contact text-[#08cf65] text-3xl group-hover:text-white'></i></span> Contact
+
         </Link>
       </div>
       
