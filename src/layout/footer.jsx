@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className='bg-bodyColor min-h-[100vh] pb-[60px] sm:pb-0 w-full text-4xl font-semibold'>
-      {/* Logo Section */}
       <div className='flex flex-col sm:flex-row sm:space-x-72 sm:mt-40 sm:ml-28 sm:pt-20 items-center text-center sm:text-left'>
         <div className="flex items-center space-x-3">
           <img 
@@ -28,8 +27,6 @@ function Footer() {
             At Innovative Scholars, we take pride in making a real difference in students' academic journeys. Our personalized tutoring, advocacy, and innovative learning solutions have helped countless students improve their grades, gain confidence, and achieve their full potential.
           </p>
         </div>
-
-        {/* Quick Links */}
         <div className='mt-5 sm:mt-0'>
           <p className='text-xl sm:text-2xl font-bold'>QUICK LINKS</p>
           <div className="flex flex-col gap-3 sm:gap-5 mt-3 text-[15px] sm:text-[17px] font-semibold">
